@@ -9,11 +9,10 @@ export default function Home() {
           <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
             <h2 className="text-4xl font-bold sm:text-5xl">
               Download Now
-              <span className="hidden sm:block text-4xl">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-                repudiandae, voluptatem, facere nisi ipsa vitae accusamus
-                quibusdam voluptas corporis nam enim, aperiam magnam tenetur
-                itaque voluptates? Qui a voluptate debitis!
+              <span className="hidden sm:block text-2xl mt-4 font-normal text-gray-700">
+                I am a 21-year-old developer based in Amaravati, Andhra Pradesh.
+                I specialize in building fast, interactive web applications
+                using React, Tailwind CSS, and modern JavaScript.
               </span>
             </h2>
 
@@ -49,11 +48,9 @@ export default function Home() {
         />
       </div>
 
-      <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, iusto
-        suscipit placeat cum voluptate laudantium tempore similique animi hic.
-        Delectus accusamus modi suscipit vero, cupiditate distinctio labore
-        saepe officia facere.
+      <h1 className="text-center text-2xl sm:text-4xl py-10 font-medium text-gray-800 px-4">
+        Passionate about clean code and great user experiences. Check out my
+        GitHub to see my latest projects, or reach out to collaborate!
       </h1>
     </div>
   );
